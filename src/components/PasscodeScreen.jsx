@@ -16,7 +16,7 @@ export default function PasscodeScreen({ onUnlock }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [sparks, setSparks] = useState([]);
   
-  const CORRECT_PIN = '190826';
+  const CORRECT_PIN = '070526';
   const PIN_LENGTH = 6;
 
   const bgParticles = Array.from({ length: 14 }).map((_, i) => ({
@@ -114,7 +114,7 @@ export default function PasscodeScreen({ onUnlock }) {
   };
 
   const verifyPin = (enteredPin) => {
-    if (enteredPin === CORRECT_PIN || enteredPin === '190826' || enteredPin === '1908' || enteredPin === '1308' || enteredPin === '1234') {
+    if (enteredPin === CORRECT_PIN || enteredPin === '070526' || enteredPin === '0705' || enteredPin === '1234') {
       const tl = gsap.timeline();
       
       tl.to(dotsRef.current, {
@@ -290,7 +290,7 @@ export default function PasscodeScreen({ onUnlock }) {
               letterSpacing: '0.5px',
             }}
           >
-            For You, Lucyna
+            For You, Ilham Pratama
           </h2>
           <p
             className="neon-text-subtle"
@@ -311,7 +311,7 @@ export default function PasscodeScreen({ onUnlock }) {
               marginTop: '4px',
             }}
           >
-            Clue: 190826 ❤️
+            Clue: "tgl keramat kita" ❤️
           </p>
         </div>
 

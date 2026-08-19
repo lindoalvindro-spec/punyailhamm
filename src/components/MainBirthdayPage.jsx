@@ -17,15 +17,21 @@ function LetterTypewriter() {
   const [displayedLines, setDisplayedLines] = useState([]);
 
   const letterLines = [
-    { text: "Happy Birthday, Lucyna ❤️", style: "greeting" },
+    { text: "Hawoo sayangku, Happy birthday yaa cintaaaa ❤️", style: "greeting" },
     { text: "", style: "spacer" },
-    { text: "On this special day, I want to wish you good health, genuine happiness, peace of mind, and the fulfilment of every dream and ambition you pursue.", style: "body" },
+    { text: "Mulai hari ini kamu sudah 21th !! 😡 INGET YA 21th!! Bukan 20 lagiii!! 😡 Bisa ga sih kamu aja yg menua biar nyusul umur akuuu 🥹🥹", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Thank you for being such a wonderful and meaningful part of my life. Your kindness, your laughter, and all the little moments we share mean more to me than I could ever put into words. I may not be able to give you the world right now, but I hope these heartfelt words bring a little smile to your face today.", style: "body" },
+    { text: "Btw terimakasihh sudah lahir kedunia ini sudah berjuang sampai titik ini dan sudah mau memilih aku untuk jadi bagian dari hidup kamu!! ❤️", style: "body" },
     { text: "", style: "spacer" },
-    { text: "May our journey continue to grow with warmth, care, and inspiration, always encouraging and supporting each other to become the best versions of ourselves.", style: "body" },
+    { text: "Aku harap semua keinginan dan wishlist kamu tercapai di tahun ini ya zeyeng!! ❤️❤️ (semoga dari banyaknya wislist kamu, ada aku masuk salah satu tujuan kamu 😭).", style: "body" },
     { text: "", style: "spacer" },
-    { text: "Happy birthday, my dearest. I hope the year ahead brings you everything beautiful that you deserve.", style: "ps" },
+    { text: "Dan semoga tahun2 berikutnya pun kita bakal rayain ultah kamu berduaa yaa,, jangan bilang kalo ga ada yang rayain dan peduli ma ultah kamu lagi!! 😡", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "Ada aku disini yang bakal rayain kamu tiap tahun oke!? 😡", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "Btw sampaii jumpa besokk zeyengg, aku punya kejutan buat kamuuu meskipun kamu udah tau sih aku nyiapin 4 kado 😚", style: "body" },
+    { text: "", style: "spacer" },
+    { text: "Love youu so muchh ❤️❤️", style: "ps" },
   ];
 
   // Trigger typewriter when scrolled into view
@@ -186,7 +192,7 @@ function LetterTypewriter() {
             }}
           >
             <span style={{ color: '#60a5fa', fontSize: '0.85rem' }}>With all my love,</span><br />
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Haikal</span>
+            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: '#38bdf8', textShadow: '0 0 10px rgba(56,189,248,0.5)' }}>Your Love 🤍</span>
           </div>
         )}
       </div>
@@ -313,8 +319,8 @@ function FarewellSection({ onOpenCake }) {
           fontWeight: '400',
         }}
       >
-        Happy Birthday, Lucyna Majewska ❤️<br /><br />
-        May your year ahead be filled with genuine happiness, good health, and success in everything you do. I’m truly grateful to be able to celebrate you today, even though we’re miles apart. Distance may keep us from celebrating side by side, but it could never make this day feel any less special to me
+        Happy Birthday, Ilham Pratama ❤️<br /><br />
+        Selamat ulang tahun yang ke-21 sayang! Semoga di usiamu yang baru ini selalu dipenuhi dengan kebahagiaan, kesehatan, dan tercapainya setiap impian dan cita-citamu. Aku sangat bersyukur bisa merayakan momen spesial ini bersamamu 💕
       </p>
 
       {/* Center Flower Bucket PNG Ornament */}
@@ -449,7 +455,9 @@ function PersonalMessageCard() {
             fontFamily: 'var(--font-body)',
           }}
         >
-          "I truly cherish your presence and all the thoughtful warmth you bring into my world. Your kindness, intelligence, grace, and courage have such a wonderful way of inspiring me every day. I hope my presence brings as much comfort, happiness, and warmth to your life as yours brings to mine"
+          "Sayang terimakasih sudah berjuang untuk meyakinkanku untuk kembali percaya kepadamu, aku menghargai setiap waktu, effort dan kasih sayang yang kamu berikan untukku ❤️"
+          <br /><br />
+          "Aku harap hal hal baik yang kita rencanakan bisa segera tercapaiii, aku terharu banget setiap kamu bilang aku tidak ada kekurangannya dan aku mengubahmu menjadi lebih baikk, aku harap kita berdua bisa tumbuh dan berubah menjadi orang yang lebih baik ❤️"
         </p>
       </div>
     </div>
@@ -510,9 +518,7 @@ export default function MainBirthdayPage() {
   const vinylRef = useRef(null);
 
   const playlist = [
-    { id: 1, title: 'Me Gustas Tu', artist: 'Manu Chao', duration: '3:58', src: '/Me Gustas Tu_spotdown.org.mp3' },
-    { id: 2, title: 'On Melancholy Hill', artist: 'Gorillaz', duration: '4:21', src: '/Gorillaz - On Melancholy Hill (Official Video).mp3' },
-    { id: 3, title: 'May This Be Love', artist: 'Jimi Hendrix', duration: '3:10', src: '/May This Be Love_spotdown.org.mp3' },
+    { id: 1, title: 'I Wanna Be Yours', artist: 'Arctic Monkeys', duration: '3:04', src: '/I Wanna Be Yours.mp3' },
   ];
 
   // 2. Bouquet Flowers Compliment Messages State
@@ -550,23 +556,55 @@ export default function MainBirthdayPage() {
     }
   };
 
-  // 3. Polaroid Lightbox Modal State - Photos for Lucyna Majewska
+  // 3. Polaroid Lightbox Modal State - Photos for Ilham Pratama
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const photoGallery = [
     { 
       id: 1, 
-      title: 'Lucyna Majewska ✨', 
-      date: 'Special Celebration', 
-      location: 'Cherished Moment',
-      img: '/lucyna 1.jpeg',
+      title: 'Happy Birthday, My Favorite Person ✨', 
+      date: 'Special 21st Milestone', 
+      location: 'Ilham Pratama 🤍',
+      img: '/ilham 1.jpeg',
       rotation: '-2deg'
     },
     { 
       id: 2, 
-      title: 'Forever in my heart 🌍', 
-      date: 'Miles Apart, But Our Hearts Close 💕', 
+      title: 'Ini pertama kali kmu balut tangan aku sblm jadian, sangad tydack rapi', 
+      date: 'Sweet Memories 💕', 
       location: '',
-      img: '/lucyna 2.jpeg',
+      img: '/ilham 2.jpeg',
+      rotation: '2.5deg'
+    },
+    { 
+      id: 3, 
+      title: "My heart is beating so fast! I'm actually a bit nervous for our first VC❤️", 
+      date: 'First Video Call ✨', 
+      location: '',
+      img: '/ilham 3.jpeg',
+      rotation: '-2deg'
+    },
+    { 
+      id: 4, 
+      title: 'Best photobox date ever! We look so cute together.', 
+      date: 'Photobox Date 📸', 
+      location: '',
+      img: '/ilham 4.jpeg',
+      rotation: '2deg'
+    },
+    { 
+      id: 5, 
+      title: 'Welcome to Yokohama baby❤️', 
+      date: 'Yokohama Trip 🎡', 
+      location: 'Yokohama',
+      img: '/ilham 5.jpeg',
+      rotation: '-1.5deg'
+    },
+    { 
+      id: 6, 
+      title: "I'm so happy my first hanabi date is with you.🎆🎇", 
+      date: 'Hanabi Festival 🎆', 
+      location: '',
+      img: '/ilham 6.jpeg',
       rotation: '2.5deg'
     },
   ];
@@ -918,7 +956,7 @@ export default function MainBirthdayPage() {
           <span>🤍</span>
         </div>
 
-        {/* Title: Happy Birthday, My Dearest 🤍 Lucyna Majewska */}
+        {/* Title: Happy 21st Birthday, Sayangku ❤️ Ilham Pratama */}
         <div
           style={{
             fontFamily: 'var(--font-display)',
@@ -931,19 +969,19 @@ export default function MainBirthdayPage() {
           <div
             ref={happyRef}
             style={{
-              fontSize: '2.8rem',
+              fontSize: '2.4rem',
               fontWeight: '600',
               color: '#ffffff',
               letterSpacing: '0.5px',
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Happy Birthday,
+            Happy 21st Birthday,
           </div>
           <div
             ref={birthdayRef}
             style={{
-              fontSize: '3.1rem',
+              fontSize: '3rem',
               fontStyle: 'italic',
               fontWeight: '600',
               background: 'linear-gradient(135deg, #ff9ed8 0%, #ff69b4 50%, #cc1a6e 100%)',
@@ -954,19 +992,19 @@ export default function MainBirthdayPage() {
               letterSpacing: '0.5px',
             }}
           >
-            Moje Kochanie ❤️
+            Sayangku ❤️
           </div>
           <div
             ref={agaaRef}
             style={{
-              fontSize: '2.8rem',
+              fontSize: '2.6rem',
               fontWeight: '600',
               color: '#ffffff',
               letterSpacing: '1px',
               textShadow: '0 0 20px rgba(255, 255, 255, 0.6)',
             }}
           >
-            Lucyna Majewska
+            Ilham Pratama
           </div>
         </div>
 
@@ -1029,7 +1067,7 @@ export default function MainBirthdayPage() {
             marginBottom: '28px',
           }}
         >
-          WISHING YOU THE HAPPIEST BIRTHDAY 🤍
+          HAPPY 21ST BIRTHDAY ILHAM PRATAMA 🤍
         </div>
 
         {/* Scroll Down Bounce Arrow */}
@@ -1614,7 +1652,7 @@ export default function MainBirthdayPage() {
                 zIndex: 5,
               }}
             >
-              📜 A SPECIAL NOTE FOR LUCYNA MAJEWSKA 💙
+              📜 A SPECIAL NOTE FOR ILHAM PRATAMA 💙
             </div>
 
             <p style={{ marginTop: '4px', fontFamily: 'var(--font-body)' }}>
@@ -1746,10 +1784,10 @@ export default function MainBirthdayPage() {
           >
             <div style={{ fontSize: '3rem', marginBottom: '10px' }}>💖</div>
             <h3 className="neon-text" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '8px' }}>
-              Happy Birthday, Lucyna!
+              Happy 21st Birthday, Ilham!
             </h3>
             <p style={{ fontSize: '0.9rem', color: '#e0f2fe', marginBottom: '20px' }}>
-              Wishing the wonderful Lucyna Majewska a magical year ahead 💗
+              Wishing the wonderful Ilham Pratama a magical 21st year ahead 💗
             </p>
 
             <button

@@ -164,7 +164,7 @@ export default function GinghamBirthdayCard() {
           Interactive Gift Card 🎁
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-          Tap the card to open Lucyna's birthday surprise ✨
+          Tap the card to open Iam's birthday surprise ✨
         </p>
       </div>
 
@@ -192,8 +192,8 @@ export default function GinghamBirthdayCard() {
             transformStyle: 'preserve-3d',
             borderRadius: '16px',
             boxShadow: isOpen
-              ? '0 20px 40px rgba(0,0,0,0.8), 0 0 30px rgba(180, 0, 30, 0.4)'
-              : '0 14px 30px rgba(0,0,0,0.6), 0 0 20px rgba(0,0,0,0.4)',
+              ? '0 20px 40px rgba(0,0,0,0.8), 0 0 30px rgba(255, 77, 109, 0.45)'
+              : '0 14px 30px rgba(0,0,0,0.6), 0 0 20px rgba(255, 117, 143, 0.3)',
             transition: 'box-shadow 0.4s ease',
           }}
         >
@@ -203,13 +203,13 @@ export default function GinghamBirthdayCard() {
               position: 'absolute',
               inset: 0,
               borderRadius: '16px',
-              background: 'linear-gradient(135deg, #fff0f3 0%, #fff 50%, #ffe6ea 100%)',
+              background: 'linear-gradient(135deg, #fff0f3 0%, #ffffff 50%, #ffe6ea 100%)',
               color: '#800016',
               padding: '20px 18px',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
-              boxShadow: 'inset 0 0 15px rgba(180, 0, 30, 0.1)',
+              boxShadow: 'inset 0 0 15px rgba(255, 77, 109, 0.12)',
               border: '2px solid #ffccd5',
               overflow: 'hidden',
             }}
@@ -222,27 +222,28 @@ export default function GinghamBirthdayCard() {
             {/* Inner Content */}
             <div ref={innerContentRef} style={{ opacity: 0, position: 'relative', zIndex: 2 }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <Sparkles size={18} color="#b4001e" />
-                <span style={{ fontSize: '0.82rem', fontWeight: '700', letterSpacing: '1px', color: '#b4001e' }}>
-                  A SPECIAL MESSAGE FOR LUCYNA MAJEWSKA
+                <Sparkles size={18} color="#ff4d6d" />
+                <span style={{ fontSize: '0.8rem', fontWeight: '700', letterSpacing: '1px', color: '#c9184a' }}>
+                  A SPECIAL MESSAGE FOR MY LOVE IAM
                 </span>
               </div>
 
-              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.25rem', color: '#73000b', marginBottom: '8px' }}>
-                Happy Birthday, Moje Kochanie! 🎂✨
+              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '1.18rem', color: '#a01a40', marginBottom: '6px' }}>
+                お誕生日おめでとう！ 🎂✨
               </h4>
 
-              <p style={{ fontSize: '0.85rem', lineHeight: '1.55', color: '#590008', fontWeight: '500' }}>
-                You bring so much light, elegance, and warmth into my world. Wishing you a year filled with boundless happiness, radiant health, and the fulfillment of your greatest dreams! 💕
+              <p style={{ fontSize: '0.86rem', lineHeight: '1.6', color: '#590008', fontWeight: '600', whiteSpace: 'pre-line' }}>
+                21歳になったよ！いつも側にいてくれてありがとう！！❤️{'\n'}
+                大好きだよ！！これからもずっと一緒にいようね。❤️❤️
               </p>
             </div>
 
             {/* Inner Footer */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 2 }}>
-              <span style={{ fontSize: '0.78rem', fontStyle: 'italic', color: '#b4001e', fontWeight: '600' }}>
+              <span style={{ fontSize: '0.78rem', fontStyle: 'italic', color: '#c9184a', fontWeight: '600' }}>
                 With all my love 🤍
               </span>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.75rem', color: '#73000b', fontWeight: '700' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.75rem', color: '#a01a40', fontWeight: '700' }}>
                 <span>Tap to close</span>
                 <ChevronRight size={14} />
               </div>
@@ -284,12 +285,12 @@ export default function GinghamBirthdayCard() {
               zIndex: 10,
             }}
           >
-            {/* LEFT PANEL: Deep Crimson Red */}
+            {/* LEFT PANEL: Sweet Pink Gradient */}
             <div
               style={{
                 width: '50%',
                 height: '100%',
-                background: 'linear-gradient(150deg, #b4001e 0%, #8b0014 60%, #60000d 100%)',
+                background: 'linear-gradient(150deg, #ff758f 0%, #ff4d6d 55%, #c9184a 100%)',
                 padding: '16px 10px 14px',
                 display: 'flex',
                 flexDirection: 'column',
@@ -297,7 +298,7 @@ export default function GinghamBirthdayCard() {
                 justifyContent: 'space-between',
                 textAlign: 'center',
                 position: 'relative',
-                boxShadow: 'inset -3px 0 10px rgba(0,0,0,0.25)',
+                boxShadow: 'inset -3px 0 10px rgba(0,0,0,0.2)',
               }}
             >
               {/* Top Text */}
@@ -309,14 +310,14 @@ export default function GinghamBirthdayCard() {
                   color: '#ffffff',
                   lineHeight: '1.3',
                   letterSpacing: '0.3px',
-                  textShadow: '0 2px 4px rgba(0,0,0,0.4)',
+                  textShadow: '0 2px 4px rgba(0,0,0,0.35)',
                   padding: '0 4px',
                 }}
               >
                 This special gift belongs to you!
               </p>
 
-              {/* Center Circular Photo Cutout with Glow Frame */}
+              {/* Center Circular Photo Cutout with Pink Glow Frame */}
               <div
                 ref={photoRef}
                 style={{
@@ -326,13 +327,13 @@ export default function GinghamBirthdayCard() {
                   borderRadius: '50%',
                   padding: '3px',
                   background: 'linear-gradient(135deg, #ffffff 0%, #ffccd5 100%)',
-                  boxShadow: '0 8px 20px rgba(0,0,0,0.5), 0 0 15px rgba(255, 255, 255, 0.5)',
+                  boxShadow: '0 8px 20px rgba(0,0,0,0.45), 0 0 15px rgba(255, 255, 255, 0.6)',
                   transformStyle: 'preserve-3d',
                 }}
               >
                 <img
-                  src="/lucyna 1.jpeg"
-                  alt="Lucyna Majewska"
+                  src="/ilham 1.jpeg"
+                  alt="Ilham Pratama"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -358,7 +359,7 @@ export default function GinghamBirthdayCard() {
                     boxShadow: '0 3px 6px rgba(0,0,0,0.3)',
                   }}
                 >
-                  <Heart size={13} fill="#b4001e" color="#b4001e" />
+                  <Heart size={13} fill="#ff4d6d" color="#ff4d6d" />
                 </div>
               </div>
 
@@ -366,7 +367,7 @@ export default function GinghamBirthdayCard() {
               <div
                 style={{
                   fontSize: '0.65rem',
-                  color: 'rgba(255, 255, 255, 0.85)',
+                  color: 'rgba(255, 255, 255, 0.9)',
                   fontStyle: 'italic',
                   letterSpacing: '0.5px',
                 }}
@@ -375,22 +376,22 @@ export default function GinghamBirthdayCard() {
               </div>
             </div>
 
-            {/* RIGHT PANEL: Authentic Red & White Gingham Plaid Pattern */}
+            {/* RIGHT PANEL: Pink & White Gingham Plaid Pattern */}
             <div
               style={{
                 width: '50%',
                 height: '100%',
                 backgroundColor: '#ffffff',
                 backgroundImage: `
-                  linear-gradient(90deg, rgba(180, 0, 30, 0.42) 50%, transparent 50%),
-                  linear-gradient(rgba(180, 0, 30, 0.42) 50%, transparent 50%)
+                  linear-gradient(90deg, rgba(255, 117, 143, 0.45) 50%, transparent 50%),
+                  linear-gradient(rgba(255, 117, 143, 0.45) 50%, transparent 50%)
                 `,
                 backgroundSize: '22px 22px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
                 position: 'relative',
-                boxShadow: 'inset 3px 0 10px rgba(0,0,0,0.15)',
+                boxShadow: 'inset 3px 0 10px rgba(0,0,0,0.12)',
               }}
             >
               {/* Starburst Serrated Badge Container */}
@@ -403,7 +404,7 @@ export default function GinghamBirthdayCard() {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  filter: 'drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35))',
+                  filter: 'drop-shadow(0 6px 14px rgba(0, 0, 0, 0.3))',
                   transformStyle: 'preserve-3d',
                 }}
               >
@@ -417,7 +418,7 @@ export default function GinghamBirthdayCard() {
                   <path
                     d={generateStarburstPath()}
                     fill="#ffffff"
-                    stroke="#ffe6ea"
+                    stroke="#ffccd5"
                     strokeWidth="2"
                   />
                 </svg>
@@ -429,7 +430,7 @@ export default function GinghamBirthdayCard() {
                     zIndex: 2,
                     textAlign: 'center',
                     padding: '12px 10px',
-                    color: '#a80517',
+                    color: '#c9184a',
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
@@ -443,7 +444,7 @@ export default function GinghamBirthdayCard() {
                       fontWeight: '800',
                       lineHeight: '1.25',
                       letterSpacing: '0.2px',
-                      color: '#900014',
+                      color: '#c9184a',
                     }}
                   >
                     Happy Birthday<br />
@@ -451,7 +452,7 @@ export default function GinghamBirthdayCard() {
                     Person
                   </p>
                   <div style={{ marginTop: '3px' }}>
-                    <Heart size={14} fill="#a80517" color="#a80517" style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.2))' }} />
+                    <Heart size={14} fill="#ff4d6d" color="#ff4d6d" style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.2))' }} />
                   </div>
                 </div>
               </div>
