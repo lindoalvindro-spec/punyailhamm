@@ -525,34 +525,34 @@ export default function MainBirthdayPage() {
   const [activeFlower, setActiveFlower] = useState('sakura');
   const flowerCompliments = {
     rose: {
-      name: "Rose",
+      name: "Mawar",
       icon: "🌹",
       color: "#ff69b4",
-      text: "Rose — Elegant, timeless, and unforgettable. You hold an exceptionally special place in my heart."
+      text: "Mawar — Elegan, abadi, dan tak terlupakan. Kamu memiliki tempat yang sangat istimewa di dalam hatiku."
     },
     tulip: {
       name: "Tulip",
       icon: "🌷",
       color: "#ff85c8",
-      text: "Tulip — Pure and graceful. I appreciate your sincerity and all the quiet, wonderful ways you bring joy to those around you."
+      text: "Tulip — Tulus dan anggun. Aku sangat bersyukur dan menghargai semua caramu yang selalu membawa kebahagiaan untukku."
     },
     sakura: {
-      name: "Cherry Blossom",
+      name: "Sakura",
       icon: "🌸",
       color: "#ff9ed8",
-      text: "Cherry Blossom — Gentle and radiant. May each step of your journey bring you boundless peace, joy, and wondrous moments."
+      text: "Sakura — Lembut dan mempesona. Semoga setiap langkah perjalanan hidupmu selalu dipenuhi kedamaian, kebahagiaan, dan momen-momen indah."
     },
     sunflower: {
-      name: "Sunflower",
+      name: "Matahari",
       icon: "🌻",
       color: "#ffb3e0",
-      text: "Sunflower — Bright and uplifting. Thank you for always being a beacon of warmth, positivity, and comfort."
+      text: "Bunga Matahari — Terang dan penuh kehangatan. Terima kasih telah selalu menjadi sumber energi positif, semangat, dan kenyamanan bagiku."
     },
     daisy: {
       name: "Daisy",
       icon: "🌼",
       color: "#ffc0eb",
-      text: "Daisy — Fresh, genuine, and delightful. May life always bless you with endless reasons to smile, even on the quietest days."
+      text: "Daisy — Manis, ceria, dan menyenangkan. Semoga hidupmu selalu diberkahi dengan sejuta alasan indah untuk tersenyum setiap harinya."
     }
   };
 
@@ -1093,13 +1093,13 @@ export default function MainBirthdayPage() {
         }}
       >
         <p style={{ fontSize: '0.75rem', letterSpacing: '1.5px', color: '#ff69b4', fontWeight: '600', marginBottom: '4px' }}>
-          — A SPECIAL BOUQUET —
+          — BUKET BUNGA SPESIAL —
         </p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', marginBottom: '4px' }}>
-          A Digital Bouquet
+          Buket Bunga Digital
         </h3>
         <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '14px' }}>
-          A heartfelt gift created just for you 🤍
+          Hadiah tulus yang dibuat khusus untukmu 🤍
         </p>
 
         {/* Bouquet PNG Banner */}
