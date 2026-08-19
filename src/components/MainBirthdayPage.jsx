@@ -564,7 +564,7 @@ export default function MainBirthdayPage() {
       title: 'Happy Birthday, My Favorite Person ✨', 
       date: 'Special 21st Milestone', 
       location: 'Ilham Pratama 🤍',
-      img: '/ilham 1.jpeg',
+      img: '/ILHAM 7.jpeg',
       rotation: '-2deg'
     },
     { 
